@@ -268,7 +268,6 @@
             justify-content: space-between;
         }
 
-        
         .docs-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -338,8 +337,18 @@
             transform: translateY(0);
         }
 
+        .legal-section {
+            padding: 4rem 0;
+            border-bottom: none;
+        }
+
+        .legal-section h3 {
+            margin-top: 2rem;
+        }
+
         footer {
             padding: 6rem 0 3rem;
+            border-top: 1px solid var(--border);
         }
 
         .footer-grid {
@@ -464,7 +473,6 @@
         </div>
     </section>
 
-    
     <section id="docs" class="container">
         <h2 class="reveal">Docs & Guides.</h2>
         <p class="reveal">Step-by-step guides for beginners. How to get your website online and what to look out for.</p>
@@ -492,6 +500,32 @@
         </div>
     </section>
 
+    
+    
+    <section id="legal" class="container legal-section">
+        <h2 class="reveal">Legal Notice</h2>
+        <div class="reveal">
+            <h3>Information in accordance with § 5 TMG</h3>
+            <p>Shift Studios<br>
+            Represented by: Dominic<br>
+            Dortmund, Germany</p>
+            <h3>Contact</h3>
+            <p>Email: <a href="mailto:hello@shift-studios.de" style="color: var(--accent);">hello@shift-studios.de</a></p>
+        </div>
+    </section>
+
+    <section id="privacy" class="container legal-section">
+        <h2 class="reveal">Privacy Policy</h2>
+        <div class="reveal">
+            <h3>1. Data Protection at a Glance</h3>
+            <p>We take the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with statutory data protection regulations. The use of this website is generally possible without providing personal data. Server log files (such as IP address, browser type, and time of access) may be collected automatically by our hosting provider to ensure secure operation.</p>
+            <h3>2. Contacting Us</h3>
+            <p>If you contact us by email, your inquiry and the personal data you provide will be stored by us for the purpose of processing your request. We will not share this data without your consent.</p>
+        </div>
+    </section>
+
+   
+
     <footer id="contact" class="container">
         <div class="footer-grid">
             <div class="reveal">
@@ -512,9 +546,9 @@
             <div class="footer-links reveal">
                 <div class="footer-heading">Legal</div>
                 <ul>
-                    <li><a href="#">Legal Notice</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#legal">Legal Notice</a></li>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                    <li><a href="#legal">Terms & Conditions</a></li>
                 </ul>
             </div>
         </div>
